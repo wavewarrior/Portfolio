@@ -16,14 +16,14 @@ const Navbar = () => {
       }
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
-        <link
+        <Link
           to="/"
           className='flex items-center gap-2'
           onClick={() => {
             setActive("");
             window.scrollTo(0, 0);
           }}
-        > <img src={logo} alt="logo" className='w-9 h-9 object-contain' /> <p>Nigel</p></link>
+        > <img src={logo} alt="logo" className='w-9 h-9 object-contain' /> <p>Nigel Fierens</p></Link>
       </div>
     </nav>
   )
